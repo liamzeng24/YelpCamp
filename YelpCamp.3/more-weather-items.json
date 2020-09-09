@@ -1,0 +1,132 @@
+{
+  "Weather": [
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "1" },
+          "Date": { "S": "2017-04-13" },
+          "City": { "S": "Seattle" },
+          "State": { "S": "WA" },
+          "Conditions": { "S": "Rain" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "52" },
+              "LowF": { "N": "43" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "1" },
+          "Date": { "S": "2017-04-14" },
+          "City": { "S": "Seattle" },
+          "State": { "S": "WA" },
+          "Conditions": { "S": "Rain" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "49" },
+              "LowF": { "N": "43" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "2" },
+          "Date": { "S": "2017-04-12" },
+          "City": { "S": "Portland" },
+          "State": { "S": "OR" },
+          "Conditions": { "S": "Thunderstorms" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "59" },
+              "LowF": { "N": "43" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "2" },
+          "Date": { "S": "2017-04-13" },
+          "City": { "S": "Portland" },
+          "State": { "S": "OR" },
+          "Conditions": { "S": "Rain" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "51" },
+              "LowF": { "N": "41" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "2" },
+          "Date": { "S": "2017-04-14" },
+          "City": { "S": "Portland" },
+          "State": { "S": "OR" },
+          "Conditions": { "S": "Rain Showers" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "49" },
+              "LowF": { "N": "39" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "3" },
+          "Date": { "S": "2017-04-12" },
+          "City": { "S": "Portland" },
+          "State": { "S": "ME" },
+          "Conditions": { "S": "Rain" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "59" },
+              "LowF": { "N": "40" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "3" },
+          "Date": { "S": "2017-04-13" },
+          "City": { "S": "Portland" },
+          "State": { "S": "ME" },
+          "Conditions": { "S": "Partly Sunny" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "54" },
+              "LowF": { "N": "37" }
+            }
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "CityID": { "N": "3" },
+          "Date": { "S": "2017-04-14" },
+          "City": { "S": "Portland" },
+          "State": { "S": "ME" },
+          "Conditions": { "S": "Mostly Sunny" },
+          "Temperatures": { "M": {
+              "HighF": { "N": "53" },
+              "LowF": { "N": "37" }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

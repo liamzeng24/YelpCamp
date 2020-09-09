@@ -1,0 +1,12 @@
+{
+  "CityID": { "N": "1" },
+  "Date": { "S": "2017-04-12" },
+  "City": { "S": "Seattle" },
+  "State": { "S": "WA" },
+  "Conditions": { "S": "Rain" },
+  "Temperatures": { "M": {
+      "HighF": { "N": "59" },
+      "LowF": { "N": "46" }
+    }
+  }
+}
